@@ -797,7 +797,7 @@ section {
 }
 
 @media (max-width:490px) {
-    .project-row {
+   .project-row {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -809,16 +809,20 @@ section {
     }
 
     .project-column .title {
-        font-size: 1.6rem;
+        font-size: 2.2rem;
     }
 
     .project-column p {
-        font-size: 1rem;
+        font-size: 1.4rem;
 
     }
 
     .project #r2 {
         margin-top: -1px;
+    }
+
+    .project-row #last a {
+        margin-top: 0px;
     }
 
 }
